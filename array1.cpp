@@ -13,14 +13,41 @@ int main () {
     //     cout << c [i] << ",";
     // }
 
-    int n,value;
-    cout << "enter array size : ";
-    cin >> n;
 
-    for (int i=0; i < n; i++){
-        cout << "a[" << i <<"] = ";
-        cin >> value;
+    // int n,value;
+    // cout << "enter array size : ";
+    // cin >> n;
+
+    // for (int i=0; i < n; i++){
+    //     cout << "a[" << i <<"] = ";
+    //     cin >> value;
+    // }
+    // cout << "length of array : " << n;
+
+
+    
+    int size;
+
+    cout << "Enter array size:- ";
+    cin >> size;
+
+    int arr[size];  
+
+    cout << "Enter array elements: \n";
+    for (int i=0; i<size; i++) 
+    {
+        cout << "a[" << i << "] = ";
+        cin >> arr[i];
     }
-    cout << "length of array : " << n;
+
+    double sum=0;
+    for (int i=0; i<size; i++) 
+    {
+        sum += arr[i];
+    } 
+
+    double average=sum/size;
+
+    cout << "Average of an Array: " << average << endl;
     
 }
