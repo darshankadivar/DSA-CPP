@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-main(){
+main()
+{
     // int x = 5;
     // x += 3;
     // cout << x;
@@ -17,7 +18,7 @@ main(){
     // int x = 5;
     // int y = 3;
     // cout << ( ! (x > 3 || x < 10));
-    
+
     // int x = 18;
     // int y = 20;
 
@@ -31,7 +32,6 @@ main(){
     // if (x > y){
     //     cout << "x is greater than y";
     // }
-
 
     // int a;
 
@@ -64,7 +64,7 @@ main(){
     // int number;
     // cout << "enter a value : ";
     // cin >> number;
-    
+
     // if (number%2 == 0){
     //     cout << "even";
     // } else {
@@ -97,17 +97,54 @@ main(){
     //     cout << "C";
     // }
 
-
     // uppercase and lowercase
 
-    char ch;
-    cout << "enter char : ";
-    cin >> ch;
+    // char ch;
+    // cout << "enter char : ";
+    // cin >> ch;
 
-    if (ch >= 'a' && ch <= 'z'){
-        cout << "lowercase";
-    } else {
-        cout << "uppercase";
-    }
+    // if (ch >= 'a' && ch <= 'z'){
+    //     cout << "lowercase";
+    // } else {
+    //     cout << "uppercase";
+    // }
 
+    // int day = 7;
+    // cout << "enter day : ";
+    // cin >> day;
+
+    // switch (day)
+    // {
+
+    // case 1:
+    //     cout << "monday";
+    //     break;
+
+    // case 2:
+    //     cout << "tuesday";
+    //     break;
+
+    // case 3:
+    //     cout << "Wednesday";
+    //     break;
+    // case 4:
+    //     cout << "Thursday";
+    //     break;
+    // case 5:
+    //     cout << "Friday";
+    //     break;
+    // case 6:
+    //     cout << "Saturday";
+    //     break;
+    // case 7:
+    //     cout << "Sunday";
+    //     break;
+
+    //     default:
+    //     cout << "only 7 days";
+    // }
+
+    int n = 45;
+    
+    cout << (n>=0 ? "positive" : "negative");
 }
