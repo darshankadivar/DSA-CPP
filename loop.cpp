@@ -118,12 +118,10 @@ main()
     //     cout << endl;
     // }
 
-
     // int n;
     // int sum = 0;
     // cout << "Enter a number: ";
     // cin >> n;
-
 
     // // Loop from 1 to n and check if a number is divisible by 3
     // for (int i = 1; i <= n; i++) {
@@ -135,6 +133,4 @@ main()
     // cout << "Sum of numbers divisible by 3 from 1 to " << n << " is: " << sum << endl;
 
     // return 0;
-    
-
 }
