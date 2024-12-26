@@ -1,15 +1,11 @@
-// Declare an array to hold n elements
-    // int arr[n];
+int size = 5;
+    // int marks [size];
 
-    // // Take input for the array elements
-    // cout << "Enter " << n << " elements: " << endl;
-    // for (int i = 0; i < n; i++) {
-    //     cin >> arr[i];
+    // for (int i = 0; i < size; i++) {
+    //     cout << "enter of element : ";
+    //     cin >> marks[i];
     // }
 
-    // // Print the elements of the array
-    // cout << "The elements of the array are: " << endl;
-    // for (int i = 0; i < n; i++) {
-    //     cout << arr[i] << " ";
+    // for (int i = 0; i < size; i++) {
+    //     cout << marks[i] << endl;
     // }
-    // cout << endl;
